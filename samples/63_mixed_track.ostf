@@ -1,0 +1,84 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Mixed track: pitched MIDI 36 and GM1 drum key 36 are NOT the same target"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "hybrid",
+      "name": "Hybrid bass and kick",
+      "trackType": "mixed",
+      "preferredView": "auto",
+      "clips": [
+        {
+          "id": "hybrid-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "bass1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 36,
+              "velocity": 73
+            },
+            {
+              "id": "k1",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 109
+            },
+            {
+              "id": "bass2",
+              "start": 960,
+              "duration": 960,
+              "pitch": 38,
+              "velocity": 67
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "kick",
+      "name": "Kick",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

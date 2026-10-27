@@ -1,0 +1,94 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Plugin target identifier is not plugin state"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "pad",
+      "name": "Analog-style pad",
+      "trackType": "melodic",
+      "preferredView": "auto",
+      "clips": [
+        {
+          "id": "pad-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "pad1",
+              "start": 0,
+              "duration": 3840,
+              "pitch": 60
+            },
+            {
+              "id": "pad2",
+              "start": 0,
+              "duration": 3840,
+              "pitch": 64
+            },
+            {
+              "id": "pad3",
+              "start": 0,
+              "duration": 3840,
+              "pitch": 67
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Synthesizer Pad",
+        "family": "synthesizer"
+      },
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:example:plugin:portable-id-not-guaranteed"
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {
+    "com.example.soundstate.v1": {
+      "version": "1.0.0",
+      "status": "unverified",
+      "dependencies": {
+        "scope": "document"
+      },
+      "data": {
+        "description": "Example-only opaque host/plugin state; NOT executable or portable",
+        "settings": {
+          "cutoff": 0.42
+        }
+      }
+    }
+  }
+}

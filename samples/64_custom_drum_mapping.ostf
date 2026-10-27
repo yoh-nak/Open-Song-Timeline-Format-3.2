@@ -1,0 +1,103 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Custom drum map with non-GM note numbers"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "customkit",
+      "name": "Custom sampler kit",
+      "trackType": "drum",
+      "preferredView": "drumGrid",
+      "clips": [
+        {
+          "id": "customkit-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "fx1"
+            },
+            {
+              "id": "n2",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "fx2"
+            },
+            {
+              "id": "n3",
+              "start": 1920,
+              "duration": 120,
+              "soundSlotId": "taiko-custom",
+              "velocity": 100
+            }
+          ]
+        }
+      ],
+      "soundSource": {
+        "kind": "plugin",
+        "identifier": "urn:example:plugin:custom-sampler"
+      }
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "fx1",
+      "name": "FX trigger A",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 12
+      }
+    },
+    {
+      "id": "fx2",
+      "name": "FX trigger B",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 96
+      }
+    },
+    {
+      "id": "taiko-custom",
+      "name": "大太鼓",
+      "role": "low-drum",
+      "midiMapping": {
+        "standard": "custom",
+        "note": 36
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

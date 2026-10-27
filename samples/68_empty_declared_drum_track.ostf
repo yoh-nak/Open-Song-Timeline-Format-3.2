@@ -1,0 +1,56 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "An empty track can declare a future intended category"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "placeholder",
+      "name": "Reserved drum part",
+      "trackType": "drum",
+      "preferredView": "auto",
+      "clips": [
+        {
+          "id": "placeholder-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": []
+        }
+      ],
+      "soundSource": {
+        "kind": "unassigned"
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

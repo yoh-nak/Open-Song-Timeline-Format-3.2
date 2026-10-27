@@ -1,0 +1,66 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Unmapped sound slot deliberately stays unresolved"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "drums",
+      "name": "Needs explicit mapping",
+      "trackType": "drum",
+      "preferredView": "auto",
+      "clips": [
+        {
+          "id": "drums-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 100,
+              "soundSlotId": "unmapped"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "unmapped",
+      "name": "Unknown percussion",
+      "role": "percussion"
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

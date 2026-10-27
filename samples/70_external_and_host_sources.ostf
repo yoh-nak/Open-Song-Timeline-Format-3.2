@@ -1,0 +1,97 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "External MIDI and host-managed sound targets"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "External MIDI keyboard",
+      "trackType": "melodic",
+      "preferredView": "pianoRoll",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Acoustic Grand Piano",
+        "family": "keyboard"
+      },
+      "soundSource": {
+        "kind": "externalMidi",
+        "identifier": "urn:example:midi:port-1"
+      }
+    },
+    {
+      "id": "host",
+      "name": "Host-managed pad",
+      "trackType": "melodic",
+      "preferredView": "pianoRoll",
+      "clips": [
+        {
+          "id": "host-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "host-note",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Acoustic Grand Piano",
+        "family": "keyboard"
+      },
+      "soundSource": {
+        "kind": "hostManaged",
+        "identifier": "urn:example:host:track-2"
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

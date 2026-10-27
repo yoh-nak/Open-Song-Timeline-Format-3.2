@@ -1,0 +1,123 @@
+{
+  "format": "OSTF",
+  "version": "3.1.0",
+  "ppq": 960,
+  "song": {
+    "title": "Drum accents stored with explicit per-note velocities"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "drums",
+      "name": "GM1 drum kit",
+      "trackType": "drum",
+      "preferredView": "auto",
+      "clips": [
+        {
+          "id": "drums-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "k1",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "kick",
+              "velocity": 112
+            },
+            {
+              "id": "h1",
+              "start": 480,
+              "duration": 120,
+              "soundSlotId": "closed-hat",
+              "velocity": 35
+            },
+            {
+              "id": "s1",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "snare",
+              "velocity": 124
+            },
+            {
+              "id": "h2",
+              "start": 1440,
+              "duration": 120,
+              "soundSlotId": "open-hat",
+              "velocity": 63
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Standard Drum Kit",
+        "family": "percussion"
+      },
+      "soundSource": {
+        "kind": "gm1"
+      }
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "kick",
+      "name": "Bass Drum 1",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      },
+      "midiNote": 36
+    },
+    {
+      "id": "snare",
+      "name": "Acoustic Snare",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 38
+      }
+    },
+    {
+      "id": "closed-hat",
+      "name": "Closed Hi-Hat",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 42
+      }
+    },
+    {
+      "id": "open-hat",
+      "name": "Open Hi-Hat",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 46
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

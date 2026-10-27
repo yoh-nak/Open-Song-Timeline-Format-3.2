@@ -1,0 +1,92 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "多言語トラック名の保存",
+    "localizedTitles": {
+      "en": "Multilingual Track Names"
+    }
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "trk-guitar",
+      "name": "ギター",
+      "localizedNames": {
+        "en": "Guitar",
+        "fr": "Guitare",
+        "ar": "غيتار",
+        "zh-Hant": "吉他"
+      },
+      "instrument": {
+        "name": "Electric Guitar",
+        "localizedNames": {
+          "ja": "エレキギター"
+        }
+      },
+      "clips": []
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {
+    "org.ostf.localization.v1": {
+      "version": "1.0.0",
+      "status": "current",
+      "dependencies": {
+        "scope": "document"
+      },
+      "data": {
+        "entries": [
+          {
+            "target": {
+              "kind": "track",
+              "id": "trk-guitar"
+            },
+            "field": "name",
+            "values": {
+              "en": "Guitar",
+              "fa": "گیتار"
+            }
+          },
+          {
+            "target": {
+              "kind": "song"
+            },
+            "field": "title",
+            "values": {
+              "pt-BR": "Nomes de faixas multilíngues"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "drumKits": []
+}

@@ -1,0 +1,83 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Harmony without implicit accompaniment"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [
+      {
+        "id": "chord-c",
+        "start": 0,
+        "duration": 3840,
+        "label": "C",
+        "root": {
+          "step": "C",
+          "alter": 0
+        },
+        "intervals": [
+          0,
+          4,
+          7
+        ],
+        "voicing": {
+          "pitches": [
+            48,
+            55,
+            60,
+            64,
+            64
+          ],
+          "velocities": [
+            82,
+            null,
+            103,
+            68,
+            94
+          ]
+        }
+      },
+      {
+        "id": "chord-custom",
+        "start": 3840,
+        "duration": 3840,
+        "label": "Custom harmony",
+        "voicing": {
+          "pitches": [
+            43,
+            59,
+            67
+          ]
+        }
+      }
+    ],
+    "scales": []
+  },
+  "tracks": [],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

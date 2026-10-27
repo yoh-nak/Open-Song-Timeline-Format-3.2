@@ -1,0 +1,91 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "キット未使用Slot保持",
+    "localizedTitles": {
+      "en": "Preserved Unused Drum Slots"
+    }
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "sect-intro",
+        "name": "イントロ",
+        "localizedNames": {
+          "en": "Intro",
+          "ko": "인트로"
+        },
+        "start": 0,
+        "duration": 3840
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "trk-unplayed",
+      "name": "打楽器",
+      "localizedNames": {
+        "en": "Percussion"
+      },
+      "trackType": "drum",
+      "drumKitId": "kit-only",
+      "clips": []
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "slot-a",
+      "name": "拍子木",
+      "localizedNames": {
+        "en": "Woodblock"
+      }
+    },
+    {
+      "id": "slot-b",
+      "name": "タンバリン",
+      "localizedNames": {
+        "en": "Tambourine"
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {},
+  "drumKits": [
+    {
+      "id": "kit-only",
+      "name": "打楽器セット",
+      "localizedNames": {
+        "en": "Percussion Set"
+      },
+      "soundSlotIds": [
+        "slot-a",
+        "slot-b"
+      ]
+    }
+  ]
+}

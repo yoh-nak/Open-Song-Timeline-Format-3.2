@@ -1,0 +1,83 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Muted clips and overlapping same-pitch notes are preserved"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "melody",
+      "name": "Overlapping notes",
+      "trackType": "melodic",
+      "preferredView": "pianoRoll",
+      "clips": [
+        {
+          "id": "melody-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 1440,
+              "pitch": 64,
+              "velocity": 69
+            },
+            {
+              "id": "n2",
+              "start": 960,
+              "duration": 1440,
+              "pitch": 64,
+              "velocity": 112
+            }
+          ]
+        },
+        {
+          "id": "off-clip",
+          "start": 3840,
+          "duration": 1920,
+          "enabled": false,
+          "notes": [
+            {
+              "id": "n3",
+              "start": 0,
+              "duration": 480,
+              "pitch": 67,
+              "velocity": 51
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

@@ -1,0 +1,156 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "GM1 drums, note 35–81 and drum-grid preference"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "drums",
+      "name": "GM1 drum kit",
+      "trackType": "drum",
+      "preferredView": "auto",
+      "clips": [
+        {
+          "id": "drums-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "k1",
+              "start": 0,
+              "duration": 120,
+              "soundSlotId": "kick"
+            },
+            {
+              "id": "h1",
+              "start": 480,
+              "duration": 120,
+              "soundSlotId": "closed-hat"
+            },
+            {
+              "id": "s1",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "snare",
+              "velocity": 104
+            },
+            {
+              "id": "clap-same-beat",
+              "start": 960,
+              "duration": 120,
+              "soundSlotId": "hand-clap",
+              "velocity": 85
+            },
+            {
+              "id": "h2",
+              "start": 1440,
+              "duration": 120,
+              "soundSlotId": "open-hat"
+            },
+            {
+              "id": "ride-1",
+              "start": 1920,
+              "duration": 240,
+              "soundSlotId": "ride",
+              "velocity": 67
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Standard Drum Kit",
+        "family": "percussion"
+      },
+      "soundSource": {
+        "kind": "gm1"
+      }
+    }
+  ],
+  "soundSlots": [
+    {
+      "id": "kick",
+      "name": "Bass Drum 1",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 36
+      },
+      "midiNote": 36,
+      "role": "kick"
+    },
+    {
+      "id": "snare",
+      "name": "Acoustic Snare",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 38
+      },
+      "role": "snare"
+    },
+    {
+      "id": "closed-hat",
+      "name": "Closed Hi-Hat",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 42
+      },
+      "role": "closed-hat"
+    },
+    {
+      "id": "open-hat",
+      "name": "Open Hi-Hat",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 46
+      },
+      "role": "open-hat"
+    },
+    {
+      "id": "hand-clap",
+      "name": "Hand Clap",
+      "role": "clap",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 39
+      }
+    },
+    {
+      "id": "ride",
+      "name": "Ride Cymbal 1",
+      "role": "ride",
+      "midiMapping": {
+        "standard": "gm1",
+        "note": 51
+      }
+    }
+  ],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}

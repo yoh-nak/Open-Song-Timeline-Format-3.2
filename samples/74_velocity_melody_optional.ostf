@@ -1,0 +1,82 @@
+{
+  "format": "OSTF",
+  "version": "3.2.0",
+  "ppq": 960,
+  "song": {
+    "title": "Optional note velocities: melody with missing value",
+    "primaryMelodyTrackId": "lead"
+  },
+  "timeline": {
+    "sections": [],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead melody",
+      "trackType": "melodic",
+      "preferredView": "pianoRoll",
+      "clips": [
+        {
+          "id": "lead-clip",
+          "start": 0,
+          "duration": 3840,
+          "notes": [
+            {
+              "id": "n1",
+              "start": 0,
+              "duration": 960,
+              "pitch": 60,
+              "velocity": 1
+            },
+            {
+              "id": "n2",
+              "start": 960,
+              "duration": 960,
+              "pitch": 64
+            },
+            {
+              "id": "n3",
+              "start": 1920,
+              "duration": 960,
+              "pitch": 67,
+              "velocity": 127
+            }
+          ]
+        }
+      ],
+      "instrument": {
+        "name": "Acoustic Grand Piano",
+        "family": "keyboard"
+      },
+      "soundSource": {
+        "kind": "gm1"
+      }
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "extensions": {}
+}
